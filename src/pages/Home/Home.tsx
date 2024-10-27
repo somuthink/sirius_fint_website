@@ -24,7 +24,7 @@ export const HomePage = () => (
           Присылать уведомления
         </p>
         <ToggleButton
-          onToggle={(e) => {
+          onToggle={(_) => {
             Notification.requestPermission();
           }}
         ></ToggleButton>

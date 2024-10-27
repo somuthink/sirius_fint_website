@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { LoginPage } from "./pages/Login/Login";
 import { HomePage } from "./pages/Home/Home";
-import { Secret } from "./pages/Secret";
 import { ChatPage } from "./pages/Chat/Chat";
 import { HistoryPage } from "./pages/Hist/Hist";
 import { ProfilePage } from "./pages/Profile/Profile";
