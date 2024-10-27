@@ -70,7 +70,7 @@ export const ProfilePage = () => {
                     <ReactSVG src={Users} />
                 </div>
             </div>
-            <div className="mt-[17rem]">
+            <div className="mt-[70%]">
                 <CustomButton
                     variant="secondary"
                     onClick={(_) => navigate("/login")}

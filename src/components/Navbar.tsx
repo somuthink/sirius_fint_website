@@ -58,7 +58,7 @@ const Navbar = () => {
     return (
         <>
             {hide && (
-                <div className="fixed w-min flex flex-row inset-x-0 mx-auto left-0 right-0 bottom-[10%] gap-1">
+                <div className="fixed w-min flex flex-row inset-x-0 mx-auto left-0 right-0 bottom-[5%] gap-1">
                     <NavbarElement>
                         <Navbutton path="/" icon={Home} />
                     </NavbarElement>
