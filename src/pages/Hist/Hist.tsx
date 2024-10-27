@@ -5,7 +5,7 @@ export const HistoryPage = () => (
     <div className="w-full flex flex-col justify-center items-center">
         <p className="w-full text-semibold text-2xl">История заданий</p>
         <TabSelector tabs={["За день", "За месяц", "За все время"]} />
-        <div className="w-[22rem] flex flex-col gap-2 mt-2">
+        <div className="w-full flex flex-col gap-2 mt-2">
             <div className="w-full h-32 p-5 bg-[#f6f6f6] rounded-3xl flex-col justify-between items-start inline-flex">
                 <div className="text-[#979797] text-base font-medium ">
                     Суммарно пополней

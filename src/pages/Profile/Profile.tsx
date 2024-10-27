@@ -58,7 +58,7 @@ export const ProfilePage = () => {
                         }
                     />
                 </div>
-                <div className="w-80 h-16 p-4 bg-BackgroundGrey rounded-3xl justify-between items-center inline-flex">
+                <div className="w-full h-16 p-4 bg-BackgroundGrey rounded-3xl justify-between items-center inline-flex">
                     <div className="w-56 flex-col justify-start items-start gap-0.5 inline-flex">
                         <div className="text-TextBlack text-sm font-semibold font-[Mont] leading-tight">
                             Приглашения
@@ -70,7 +70,7 @@ export const ProfilePage = () => {
                     <ReactSVG src={Users} />
                 </div>
             </div>
-            <div className="mt-[50%]">
+            <div className="mt-[50%] w-full">
                 <CustomButton
                     variant="secondary"
                     onClick={(_) => navigate("/login")}

@@ -8,7 +8,7 @@ import ToggleButton from "../../components/ToggleButton";
 export const HomePage = () => (
   <div className="w-full  flex flex-col justify-center items-center ">
     <p className="w-full text-bold text-2xl">Главная</p>
-    <div className="flex flex-col mt-[1.5rem] gap-[0.75rem]">
+    <div className="w-full flex flex-col mt-[1.5rem] gap-[0.75rem]">
       <div className="w-ful h-32 p-5 bg-gradient-to-l from-[#000036] to-AccentBlue rounded-[2rem] flex-col justify-between items-start inline-flex">
         <div className="text-white text-base font-semibold ">
           Суммарно поступлений

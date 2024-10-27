@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="bg-white w-[375px] h-full absolute  m-auto left-0 right-0 mt-[2rem] px-5">
+    <div className="bg-white lg:w-[375px] md:w-[375px] sm:w-full h-full absolute  m-auto left-0 right-0 mt-[2rem] px-5">
       <Navbar />
       <AuthProvider>
         <Routes>

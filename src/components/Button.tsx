@@ -7,7 +7,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 const CustomButton = ({ children, variant, ...props }: ButtonProps) => {
     const baseStyles =
-        " w-80 h-14  py-4  rounded-3xl justify-center items-center inline-flex";
+        " w-full h-14  py-4  rounded-3xl justify-center items-center inline-flex";
     const primaryStyles =
         "bg-AccentBlue text-white opacity-100 hover:opacity-90 transition-opacity";
     const secondaryStyles =

@@ -9,7 +9,7 @@ import AlhpaLogo from "../../assets/images/alpha.png";
 export const ChecksPage = () => (
     <div className="w-full flex flex-col justify-center items-center">
         <p className="w-full text-bold text-2xl">Счета и депозит</p>
-        <div className="mt-4 w-96 h-80 p-5 bg-BackgroundGrey rounded-3xl flex-col justify-start items-start gap-4 inline-flex">
+        <div className="mt-4 w-full h-80 p-5 bg-BackgroundGrey rounded-3xl flex-col justify-start items-start gap-4 inline-flex">
             <div className="self-stretch h-48 flex-col justify-start items-start gap-4 flex">
                 <div className="h-20 flex-col justify-start items-start gap-2 flex">
                     <div className="self-stretch text-Gray 5 text-base font-semibold ">
@@ -54,7 +54,7 @@ export const ChecksPage = () => (
         <p className="text-Gray5  w-full text-base font-semibold mt-6">
             Мои счета
         </p>
-        <div className="flex flex-col gap-2 mt-3.5">
+        <div className="w-full flex flex-col gap-2 mt-3.5">
             <BankCard
                 imgSrc={TinkoffLogo}
                 bankName="Т-Банк (Тинькофф)"

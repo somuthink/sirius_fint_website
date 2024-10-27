@@ -14,7 +14,7 @@ export const BankCard = ({
     usdApprox,
 }: BankCardProps) => {
     return (
-        <div className="w-96 h-20 px-5 py-4 bg-BackgroundGrey rounded-2xl justify-between items-center inline-flex">
+        <div className="w-full h-20 px-5 py-4 bg-BackgroundGrey rounded-2xl justify-between items-center inline-flex">
             <div className="justify-start items-center gap-2 flex">
                 <img
                     className="w-8 h-8 rounded-full"
